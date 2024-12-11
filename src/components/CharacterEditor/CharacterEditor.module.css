@@ -4,10 +4,12 @@
 }
 
 .maxWidthWrapper {
+  position: relative;
+  z-index: 1;
 }
-
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -24,7 +26,22 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 10%;
+  left: 60%;
+  height: 500px;
+  min-height: 500px;
+  bottom: 5%;
 }
 
 .controlColumn {
+  width: 50%;
+}
+
+.perspective {
+  position: fixed;
+  background-color: yellowgreen;
+  top: 60%;
+  height: 40%;
+  width: 100%;
 }
